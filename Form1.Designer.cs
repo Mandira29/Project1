@@ -74,6 +74,7 @@
             close.TabIndex = 0;
             close.Text = "X";
             close.UseVisualStyleBackColor = false;
+            close.Click += close_Click;
             // 
             // pictureBox1
             // 
@@ -160,7 +161,7 @@
             label1.Size = new Size(136, 25);
             label1.TabIndex = 12;
             label1.Text = "Welcome Back!";
-            label1.Click += label1_Click;
+           // label1.Click += label1_Click;
             // 
             // Form1
             // 
@@ -180,7 +181,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Load += Form1_Load;
+            
             tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
